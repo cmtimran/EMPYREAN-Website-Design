@@ -8953,7 +8953,7 @@ body {
 }
 .navbar-brand img {
   vertical-align: top;
-  height: 80px;
+  height: 55px;
 }
 
 #main-navigation-wrapper.navbar-default {
@@ -9057,7 +9057,7 @@ body {
 
 #main-navigation-wrapper .nav > li > a {
   padding: 25px 0;
-  line-height: 48px;
+  line-height: 25px;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
