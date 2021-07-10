@@ -2152,7 +2152,7 @@ footer {
 
 .footer-wrapper {
   position: relative;
-  background: #1e1e1e;
+  background: #fff;
 }
 
 .footer-pad {
@@ -2215,7 +2215,7 @@ footer {
 
 .widget-contact h4, .get-in-touch h4, .widget-links h4 {
   font: 600 18px/17px "Open Sans", sans-serif;
-  color: #fff;
+  color: #000;
   margin-top: 0px;
   text-transform: uppercase;
   margin-bottom: 24px;
@@ -8953,6 +8953,7 @@ body {
 }
 .navbar-brand img {
   vertical-align: top;
+  height: 80px;
 }
 
 #main-navigation-wrapper.navbar-default {
@@ -9051,17 +9052,17 @@ body {
 }
 
 #main-navigation-wrapper .nav > li {
-  padding: 16px 0;
+  padding: 16px  0;
 }
 
 #main-navigation-wrapper .nav > li > a {
   padding: 25px 0;
+  line-height: 48px;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: #666666;
-  text-transform: uppercase;
-  /*padding-right: 20px;*/
+  text-transform: uppercase; 
 }
 #main-navigation-wrapper .nav > li > a .glyphicon {
   float: right;
@@ -9192,8 +9193,8 @@ body {
 }
 
 #main-navigation-wrapper .navbar-brand {
-  padding-top: 26px;
-  padding-bottom: 26px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 @media (max-width: 767px) {
   #main-navigation-wrapper .navbar-brand {
